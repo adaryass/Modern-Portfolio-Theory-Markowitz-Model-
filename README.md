@@ -10,7 +10,7 @@ We studied key concepts including:
 
 In practice, we implemented Python code to:
 
-* Download historical stock data (2012–2025) using the *yfinance* library for a selected group of companies: AAPL, WMT, TSLA, GE, AMZN, DB, and NVDA.
+* Download historical stock data (2012–2025) using the *yfinance* library for a selected group of companies: AAPL, WMT, TSLA, GE, AMZN, DB.
 * Visualize the data using an interactive plot (via *plotly*), showing the closing prices of these stocks over time.
 
 This sets the groundwork for further analysis, such as computing returns, portfolio optimization, plotting the efficient frontier, and calculating the Sharpe ratio.
