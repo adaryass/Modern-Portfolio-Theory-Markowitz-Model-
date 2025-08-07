@@ -16,7 +16,7 @@ In practice, we implemented Python code to:
 This sets the groundwork for further analysis, such as computing returns, portfolio optimization, plotting the efficient frontier, and calculating the Sharpe ratio.
 
 
-This chart shows the evolution of closing prices for six major stocks (AAPL, WMT, TSLA, GE, AMZN, DB) from 2012 to 2024.
+## This chart shows the evolution of closing prices for six major stocks (AAPL, WMT, TSLA, GE, AMZN, DB) from 2012 to 2025.
 <img width="1156" height="525" alt="newplot" src="https://github.com/user-attachments/assets/82b96279-9a28-49ea-899b-547abca24a97" />
 
 
