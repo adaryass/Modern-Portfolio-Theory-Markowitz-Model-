@@ -33,12 +33,13 @@ R_p = \sum_{i=1}^k w_i r_i
 $$
 
 where:
-- \( w_i \) is the weight of asset \( i \) in the portfolio,
-- \( r_i \) is the return on asset \( i \).
-
+\begin{itemize}
+    \item $w_i$ is the weight of asset $i$ in the portfolio,
+    \item $r_i$ is the return on asset $i$.
+\end{itemize}
 
 It is convenient to write this in matrix form.  
-Let \( r \) denote the \( k \times 1 \) vector of asset returns and \( w \) the \( k \times 1 \) vector of portfolio weights:
+Let $r$ denote the $(k \times 1)$ vector of asset returns and $w$ the $(k \times 1)$ vector of portfolio weights:
 
 $$
 w = (w_1, w_2, \dots, w_k)^\top, \quad r = (r_1, r_2, \dots, r_k)^\top
