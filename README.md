@@ -97,15 +97,9 @@ This sets the groundwork for further analysis, such as computing returns, portfo
 <img width="1156" height="525" alt="newplot (5)" src="https://github.com/user-attachments/assets/67d3f9c0-56d3-478f-a2d1-f3de7f5b763b" />
 
 
-$$
-Optimal portfolio:  [0.262 0.419 0.13  0.    0.189 0.   ]
-$$
+Optimal portfolio:  [0.262 0.419 0.130 0.000 0.189 0.000]
 
-$$
-Expected return, volatility and Sharpe ratio:  [0.2185441  0.20110062 1.08674007]
-$$
-
-
-
+Expected return, volatility and Sharpe ratio:
+[0.21854410 0.20110062 1.08674007]
 
 
