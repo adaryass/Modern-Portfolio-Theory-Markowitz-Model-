@@ -25,32 +25,48 @@ Where:
 
 * 𝑟t : is the log return.
 * S(t) : is the asset price at time t.
-​
-**Expected return:**
+
+​In Modern Portfolio Theory, the percentage return \( R_p \) on a linear portfolio is a weighted sum of the returns on its constituent assets:
 
 $$
-\mathbb{E}[R_p] = w^\top \r_t
+R_p = \sum_{i=1}^k w_i r_i
 $$
 
-**Portfolio Variance (Risk) :**
+where:
+- \( w_i \) is the weight of asset \( i \) in the portfolio,
+- \( r_i \) is the return on asset \( i \).
 
-* **Matrix notation:**
 
-$$
-\operatorname{Var}(R_p) = w^\top \Sigma\, w
-$$
-
-* **Summation notation:**
+It is convenient to write this in matrix form.  
+Let \( r \) denote the \( k \times 1 \) vector of asset returns and \( w \) the \( k \times 1 \) vector of portfolio weights:
 
 $$
-\mathrm{Var}(R_p) = \sum_{i=1}^k w_i^2 \mathrm{Var}(r_i) + \sum_{i=1}^k \sum_{\substack{j=1 \\ j \ne i}}^k w_i w_j \mathrm{Cov}(r_i, r_j)
+w = (w_1, w_2, \dots, w_k)^\top, \quad r = (r_1, r_2, \dots, r_k)^\top
 $$
 
-* **Standard deviation:**
+Then the portfolio return can be written compactly as:
 
 $$
-\sigma_p = \sqrt{w^\top \Sigma w}
+R_p = w^\top r
 $$
+
+
+The risk of a portfolio can be measured by its variance, using the properties of the variance operator:
+
+
+
+In matrix notation, if \(\Sigma\) is the \(k \times k\) covariance matrix of asset returns:
+
+$$
+\mathrm{Var}(R_p) = w^\top \Sigma\, w
+$$
+
+The portfolio standard deviation is:
+
+$$
+\sigma_p = \sqrt{w^\top \Sigma\, w}
+$$
+
 
 * **Assumptions of the Markowitz-Model :**
 1) **Returns are normally distributed :** the returns of the stocks are **normally distributed** with **µ mean** and **σ Standard Deviation**.
@@ -80,76 +96,6 @@ This sets the groundwork for further analysis, such as computing returns, portfo
 
 
 
-
-
-
-### Modern Portfolio Theory: Portfolio Return and Risk in Matrix Notation
-
-In Modern Portfolio Theory, the percentage return \( R_p \) on a linear portfolio is a weighted sum of the returns on its constituent assets:
-
-$$
-R_p = \sum_{i=1}^k w_i r_i
-$$
-
-where:
-- \( w_i \) is the weight of asset \( i \) in the portfolio,
-- \( r_i \) is the return on asset \( i \).
-
----
-
-It is convenient to write this in matrix form.  
-Let \( r \) denote the \( k \times 1 \) vector of asset returns and \( w \) the \( k \times 1 \) vector of portfolio weights:
-
-$$
-w = (w_1, w_2, \dots, w_k)^\top, \quad r = (r_1, r_2, \dots, r_k)^\top
-$$
-
-Then the portfolio return can be written compactly as:
-
-$$
-R_p = w^\top r
-$$
-
----
-
-The risk of a portfolio can be measured by its variance, using the properties of the variance operator:
-
-
-
-In matrix notation, if \(\Sigma\) is the \(k \times k\) covariance matrix of asset returns:
-
-$$
-\mathrm{Var}(R_p) = w^\top \Sigma\, w
-$$
-
-The portfolio standard deviation is:
-
-$$
-\sigma_p = \sqrt{w^\top \Sigma\, w}
-$$
-
----
-
-#### Logarithmic and Simple Returns
-
-For a single asset with price \(P_t\) at time \(t\):
-
-- **Simple return**:
-$$
-R_t = \frac{P_{t+1} - P_t}{P_t} = \frac{P_{t+1}}{P_t} - 1
-$$
-
-- **Logarithmic (continuously compounded) return**:
-$$
-r_t = \ln\left(\frac{P_{t+1}}{P_t}\right) = \ln P_{t+1} - \ln P_t
-$$
-
-**Relationship:**
-$$
-r_t = \ln(1 + R_t), \quad R_t = e^{r_t} - 1
-$$
-
-\]
 
 
 
