@@ -59,13 +59,13 @@ The risk of a portfolio can be measured by its variance, using the properties of
 In matrix notation, if $\(\Sigma\)$ is the $\(k \times k\)$ covariance matrix of asset returns:
 
 $$
-\mathrm{Var}(R_p) = w^\top \Sigma\, w
+\mathrm{Var}(R_p) = w^\top \Sigma\ w
 $$
 
 The portfolio standard deviation is:
 
 $$
-\sigma_p = \sqrt{w^\top \Sigma\, w}
+\sigma_p = \sqrt{w^\top \Sigma\ w}
 $$
 
 
