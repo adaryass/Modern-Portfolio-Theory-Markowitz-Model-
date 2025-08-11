@@ -10,7 +10,7 @@ Explored Modern Portfolio Theory (Markowitz Model), focusing on diversification,
 * The model relies heavily on **historical data**, historical mean performance is assumed to be the best estimator for future (expected) performance.
 
 * **What is the main idea behind Markowitz-Model ?**
-  We may  **combine multiple assets(stocks)** in order to reduce risk as much as possible. This is called diverzification.
+  We may  **combine multiple assets (stocks)** in order to reduce risk as much as possible. This is called diverzification.
 
 if we invest all of our money into **a single stock** then we take a huge risk because stocks are **volatile**. We do not know for certain whether the **S(t) stock prioce** will rise or fall. 
 
