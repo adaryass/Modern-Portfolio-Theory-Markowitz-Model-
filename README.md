@@ -29,7 +29,7 @@ Where:
 **Expected return:**
 
 $$
-\mathbb{E}[R_p] = w^\top \mu
+\mathbb{E}[R_p] = w^\top \r_t
 $$
 
 **Portfolio Variance (Risk) :**
