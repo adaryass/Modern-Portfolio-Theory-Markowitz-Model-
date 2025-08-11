@@ -1,6 +1,61 @@
 # Modern-Portfolio-Theory-Markowitz-Model-
 Explored Modern Portfolio Theory (Markowitz Model), focusing on diversification, mean-variance analysis, the efficient frontier, Sharpe ratio, and the Capital Allocation Line (CAL) to build optimal portfolios and balance risk with expected return.
 
+**Modern Portfolio Theory :** 
+* It was first formulated by **Harry Markowitz** back in 1952;
+* He was later with the Nobel prize in economics.
+* It is a **portfolio optimization** model.
+* It assists in the selection of **the most efficient portfolio** by considering various possible portfolios of the given securities based on expected return (mean) and risk (variance).
+
+* The model relies heavily on **historical data**, historical mean performance is assumed to be the best estimator for future (expected) performance.
+
+* **What is the main idea behind Markowitz-Model ?**
+  We may  **combine multiple assets(stocks)** in order to reduce risk as much as possible. This is called diverzification.
+
+if we invest all of our money into **a single stock** then we take a huge risk because stocks are **volatile**. We do not know for certain whether the **S(t) stock prioce** will rise or fall. 
+
+**Log Returns Formulation :**
+* In financial mathematics, the continuously compounded return (log return) is given by:
+
+$$
+r_t = \ln\left(\frac{P_{t+1}}{P_t}\right) = \ln P_{t+1} - \ln P_t
+$$
+Where:
+
+* 𝑟t : is the log return.
+* S(t) : is the asset price at time t.
+​
+**Expected return:**
+$$
+\mathbb{E}[R_p] = w^\top \mu
+$$
+
+**Portfolio Variance (Risk) :**
+
+* **Matrix notation:**
+$$
+\operatorname{Var}(R_p) = w^\top \Sigma\, w
+$$
+
+* **Summation notation:**
+$$
+\operatorname{Var}(R_p) =
+\sum_{i=1}^k w_i^2 \operatorname{Var}(r_i)
++ 2 \sum_{i<j} w_i w_j \operatorname{Cov}(r_i, r_j)
+$$
+
+* **Standard deviation:**
+$$
+\sigma_p = \sqrt{w^\top \Sigma w}
+
+* **Assumptions of the Markowitz-Model :**
+1) **Returns are normally distributed :** the returns of the stocks are **normally distributed** with **µ mean** and **σ Standard Deviation**.
+2) **Investors are Risk-Averse** investors will take on **more risk** if they are expecting **more return**.
+
+* If there is a low risk (bonds) the return is low as well, with the higher isk (stocks) the returns are usually higher.
+* **So the efficient Portfolio is the Portfolio that has the highest reward for a given Level of Risk or the Lowest Risk for a Given Return !**
+
+
 We studied key concepts including:
 
 * **Diversification**: Reducing risk by investing in a variety of assets that do not perfectly correlate with each other.
