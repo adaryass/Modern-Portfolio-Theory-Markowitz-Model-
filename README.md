@@ -99,6 +99,9 @@ This sets the groundwork for further analysis, such as computing returns, portfo
 
 $$
 Optimal portfolio:  [0.262 0.419 0.13  0.    0.189 0.   ]
+$$
+
+$$
 Expected return, volatility and Sharpe ratio:  [0.2185441  0.20110062 1.08674007]
 $$
 
