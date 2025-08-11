@@ -1,7 +1,7 @@
 # Modern-Portfolio-Theory-Markowitz-Model-
 Explored Modern Portfolio Theory (Markowitz Model), focusing on diversification, mean-variance analysis, the efficient frontier, Sharpe ratio, and the Capital Allocation Line (CAL) to build optimal portfolios and balance risk with expected return.
  
-**Modern Portfolio Theory :** 
+## Modern Portfolio Theory : 
 * It was first formulated by **Harry Markowitz** back in 1952;
 * He was later with the Nobel prize in economics.
 * It is a **portfolio optimization** model.
@@ -92,6 +92,11 @@ This sets the groundwork for further analysis, such as computing returns, portfo
 
 ## This chart shows the evolution of closing prices for six major stocks (AAPL, WMT, TSLA, GE, AMZN, DB) from 2012 to 2025.
 <img width="1156" height="525" alt="newplot" src="https://github.com/user-attachments/assets/82b96279-9a28-49ea-899b-547abca24a97" />
+
+## Efficient Frontier and Sharpe Ratio
+<img width="1156" height="525" alt="newplot (5)" src="https://github.com/user-attachments/assets/67d3f9c0-56d3-478f-a2d1-f3de7f5b763b" />
+
+
 
 
 
