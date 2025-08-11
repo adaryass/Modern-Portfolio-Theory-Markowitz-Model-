@@ -33,7 +33,7 @@ R_p = \sum_{i=1}^k w_i r_i
 $$
 
 where:
-$w_i$ is the weight of asset $i$ in the portfolio, \\
+$w_i$ is the weight of asset $i$ in the portfolio, 
 $r_i$ is the return on asset $i$.
 
 It is convenient to write this in matrix form.  
