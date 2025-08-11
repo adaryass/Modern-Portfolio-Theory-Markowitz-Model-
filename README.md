@@ -33,6 +33,7 @@ R_p = \sum_{i=1}^k w_i r_i
 $$
 
 where:
+
 $$
 \begin{itemize}
     \item $w_i$ is the weight of asset $i$ in the portfolio,
