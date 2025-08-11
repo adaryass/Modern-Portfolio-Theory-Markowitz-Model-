@@ -56,7 +56,7 @@ The risk of a portfolio can be measured by its variance, using the properties of
 
 
 
-In matrix notation, if \(\Sigma\) is the \(k \times k\) covariance matrix of asset returns:
+In matrix notation, if $\(\Sigma\)$ is the $\(k \times k\)$ covariance matrix of asset returns:
 
 $$
 \mathrm{Var}(R_p) = w^\top \Sigma\, w
