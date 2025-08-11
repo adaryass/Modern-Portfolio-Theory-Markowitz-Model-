@@ -27,6 +27,7 @@ Where:
 * S(t) : is the asset price at time t.
 ​
 **Expected return:**
+
 $$
 \mathbb{E}[R_p] = w^\top \mu
 $$
@@ -34,11 +35,13 @@ $$
 **Portfolio Variance (Risk) :**
 
 * **Matrix notation:**
+
 $$
 \operatorname{Var}(R_p) = w^\top \Sigma\, w
 $$
 
 * **Summation notation:**
+
 $$
 \operatorname{Var}(R_p) =
 \sum_{i=1}^k w_i^2 \operatorname{Var}(r_i)
@@ -46,8 +49,10 @@ $$
 $$
 
 * **Standard deviation:**
+
 $$
 \sigma_p = \sqrt{w^\top \Sigma w}
+$$
 
 * **Assumptions of the Markowitz-Model :**
 1) **Returns are normally distributed :** the returns of the stocks are **normally distributed** with **µ mean** and **σ Standard Deviation**.
