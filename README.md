@@ -20,6 +20,7 @@ if we invest all of our money into **a single stock** then we take a huge risk b
 $$
 r_t = \ln\left(\frac{P_{t+1}}{P_t}\right) = \ln P_{t+1} - \ln P_t
 $$
+
 Where:
 
 * 𝑟t : is the log return.
