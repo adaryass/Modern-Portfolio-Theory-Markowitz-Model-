@@ -43,9 +43,7 @@ $$
 * **Summation notation:**
 
 $$
-\operatorname{Var}(R_p) =
-\sum_{i=1}^k w_i^2 \operatorname{Var}(r_i)
-+ 2 \sum_{i<j} w_i w_j \operatorname{Cov}(r_i, r_j)
+\mathrm{Var}(R_p) = \sum_{i=1}^k w_i^2 \mathrm{Var}(r_i) + \sum_{i=1}^k \sum_{\substack{j=1 \\ j \ne i}}^k w_i w_j \mathrm{Cov}(r_i, r_j)
 $$
 
 * **Standard deviation:**
@@ -116,10 +114,7 @@ $$
 
 The risk of a portfolio can be measured by its variance, using the properties of the variance operator:
 
-$$
-\mathrm{Var}(R_p) = \sum_{i=1}^k w_i^2 \mathrm{Var}(r_i)
-+ \sum_{i=1}^k \sum_{j \neq i} w_i w_j \mathrm{Cov}(r_i, r_j)
-$$
+
 
 In matrix notation, if \(\Sigma\) is the \(k \times k\) covariance matrix of asset returns:
 
