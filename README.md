@@ -87,11 +87,12 @@ This sets the groundwork for further analysis, such as computing returns, portfo
 
 ### Modern Portfolio Theory: Portfolio Return and Risk in Matrix Notation
 
-In Modern Portfolio Theory, the percentage return \( R_p \) on a linear portfolio is a weighted sum of the returns on its constituent assets, i.e.,
-\begin{equation}
-R_p = \sum_{i=1}^k w_i r_i,
-\tag{2.1}
-\end{equation}
+In Modern Portfolio Theory, the percentage return \( R_p \) on a linear portfolio is a weighted sum of the returns on its constituent assets:
+
+$$
+R_p = \sum_{i=1}^k w_i r_i
+$$
+
 where:
 - \( w_i \) is the weight of asset \( i \) in the portfolio,
 - \( r_i \) is the return on asset \( i \).
@@ -100,34 +101,37 @@ where:
 
 It is convenient to write this in matrix form.  
 Let \( r \) denote the \( k \times 1 \) vector of asset returns and \( w \) the \( k \times 1 \) vector of portfolio weights:
-\[
-w = (w_1, w_2, \dots, w_k)^\top, \quad r = (r_1, r_2, \dots, r_k)^\top.
-\]
 
-Then (2.1) can be written compactly as:
-\begin{equation}
-R_p = w^\top r.
-\tag{2.2}
-\end{equation}
+$$
+w = (w_1, w_2, \dots, w_k)^\top, \quad r = (r_1, r_2, \dots, r_k)^\top
+$$
+
+Then the portfolio return can be written compactly as:
+
+$$
+R_p = w^\top r
+$$
 
 ---
 
-The risk of a portfolio can be measured by its variance, using the properties of the variance operator. Applying this to (2.1), we obtain:
-\begin{equation}
+The risk of a portfolio can be measured by its variance, using the properties of the variance operator:
+
+$$
 \mathrm{Var}(R_p) = \sum_{i=1}^k w_i^2 \mathrm{Var}(r_i)
-+ \sum_{i=1}^k \sum_{\substack{j=1 \\ j \neq i}}^k w_i w_j \mathrm{Cov}(r_i, r_j).
-\tag{2.3}
-\end{equation}
++ \sum_{i=1}^k \sum_{j \neq i} w_i w_j \mathrm{Cov}(r_i, r_j)
+$$
 
 In matrix notation, if \(\Sigma\) is the \(k \times k\) covariance matrix of asset returns:
-\begin{equation}
-\mathrm{Var}(R_p) = w^\top \Sigma\, w.
-\tag{2.4}
-\end{equation}
-The portfolio standard deviation is given by:
-\[
-\sigma_p = \sqrt{w^\top \Sigma\, w}.
-\]
+
+$$
+\mathrm{Var}(R_p) = w^\top \Sigma\, w
+$$
+
+The portfolio standard deviation is:
+
+$$
+\sigma_p = \sqrt{w^\top \Sigma\, w}
+$$
 
 ---
 
@@ -136,20 +140,20 @@ The portfolio standard deviation is given by:
 For a single asset with price \(P_t\) at time \(t\):
 
 - **Simple return**:
-\begin{equation}
+$$
 R_t = \frac{P_{t+1} - P_t}{P_t} = \frac{P_{t+1}}{P_t} - 1
-\tag{2.5}
-\end{equation}
+$$
 
 - **Logarithmic (continuously compounded) return**:
-\begin{equation}
+$$
 r_t = \ln\left(\frac{P_{t+1}}{P_t}\right) = \ln P_{t+1} - \ln P_t
-\tag{2.6}
-\end{equation}
+$$
 
-Relationship:
-\[
-r_t = \ln(1 + R_t), \quad R_t = e^{r_t} - 1.
+**Relationship:**
+$$
+r_t = \ln(1 + R_t), \quad R_t = e^{r_t} - 1
+$$
+
 \]
 
 
