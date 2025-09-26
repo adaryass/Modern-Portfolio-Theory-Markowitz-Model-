@@ -16,7 +16,7 @@ if we invest all of our money into **a single stock** then we take a huge risk b
 
 **Log Returns Formulation :**
 * In financial mathematics, the continuously compounded return (log return) is given by:
-
+ 
 $$
 r_t = \ln\left(\frac{P_{t+1}}{P_t}\right) = \ln P_{t+1} - \ln P_t
 $$
